@@ -1,104 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sirun Resume</title>
-    <meta name="keywords" content="resume, sirun, sv">
-    <meta name="description" content="Это сайт - резюме Сирун Назаряна">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sirun CV</title>
+    <meta name="keywords" content="resume, sirun, sv" />
+    <meta name="description" content="Это сайт - резюме Сирун Назаряна" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="fonts.css" />
+    <link rel="stylesheet" href="colors.css" />
+  </head>
 
-    <img src="imgs/Sirun.jpg" width="200" alt="фотография Сирун">
+  <body>
+    <div class="container">
 
-    <h1>Сирун Назарян</h1>
+      <div class="info">
 
-    <p>Я прошла обучение в <strong>онлайн школе</strong> по программированию <strong> Result Shcool</strong>.  </p>
+        <img src="imgs/Sirun.jpg" alt="фотография Сирун" class="img" />
 
-    <p>Я люблю <em>читать психологию, путешествовать и программировать.</em> </p>
-    
-<h3>Список социальных сетей:</h3>
+        <div class="info-text">
 
-<a href="https://vk.com/s.nazar2012" target="_blank" >Вконтакте</a>
-|
-<a href="https://instagram.com/_sirun_sirun_?igshid=MzNlNGNkZWQ4Mg==" target="_blank" >Instagram</a>
-|
-<a href="https://t.me/sirunnazaryan" target="_blank" >Telegram</a>
+          <div class="name-color">
+            <h1>Сирун Назарян</h1>
+          </div>
+          
+          <p>
+            Я прошла онлайн обучение <strong>по программированию</strong> в
+            <strong> Result University</strong>.
+          </p>
 
-<h2>Мои хобби</h2>
+          <p>
+            Люблю читать <em>психологию, путешествовать и программировать.</em>
+          </p>
 
-<ul>
-    <li>Психология</li>
-    <li>Путешествия</li>
-    <li>Аргентинское танго</li>
-    <li>Йога</li>
-</ul>
+          <h4>Список социальных сетей:</h4>
 
-<h2>Опыт работы</h2>
+          <a href="https://vk.com/s.nazar2012" target="_blank">Вконтакте</a>
 
-<table>
+          <a
+            href="https://instagram.com/_sirun_sirun_?igshid=MzNlNGNkZWQ4Mg=="
+            target="_blank"
+            >Instagram</a
+          >
 
-   <th>
-      <tr>
-        <th>Название</th>
-        <th>Должность</th>
-        <th>Год</th>
-      </tr>
-   </th>
+          <a href="https://t.me/sirunnazaryan" target="_blank">Telegram</a>
+        </div>
+      </div>
 
-    <tbody>
-        <tr>
-            <td>Золотой Колос</td>
-            <td>Кондитер</td>
-            <td>2012</td>
-        </tr>
+      <div class="card hobby">
+        <h2>Мои хобби</h2>
 
-        <tr>
-            <td>Связной</td>
-            <td>Менеджер</td>
-            <td>2012-2013</td>
-        </tr>
+        <ol class="list">
+          <li>Психология</li>
+          <li>Путешествия</li>
+          <li>Аргентинское танго</li>
+          <li>Йога</li>
+        </ol>
+      </div>
 
-        <tr>
-            <td>Лига Ставок</td>
-            <td>Кассир/Консультант</td>
-            <td>2014-2020</td>
-        </tr>
+      <div class="card experience">
+        <h2>Опыт работы</h2>
 
-        <tr>
-            <td>ИП Назарян</td>
-            <td>Руководитель</td>
-            <td>2020</td>
-        </tr>
-    </tbody>
+        <table class="table">
+          <!-- <th>
+                    <tr>
+                        <th>Название</th>
+                        <th>Должность</th>
+                        <th>Год</th>
+                    </tr>
+                </th>-->
 
-</table>
+          <tbody>
+            <tr>
+              <td>Золотой Колос</td>
+              <td>Кондитер</td>
+              <td>2012</td>
+            </tr>
 
-<h2>Связаться со мной</h2>
+            <tr>
+              <td>Связной</td>
+              <td>Менеджер</td>
+              <td>2012-2013</td>
+            </tr>
 
-<form action="">
+            <tr>
+              <td>Лига Ставок</td>
+              <td>Кассир/Консультант</td>
+              <td>2014-2020</td>
+            </tr>
 
-    <div>
-        <label for="name">Ваше имя:</label>
-        <input type="text" id="name" placeholder="Введите имя">
+            <tr>
+              <td>ИП Назарян</td>
+              <td>Руководитель</td>
+              <td>2020</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="card bg-yellow">
+        <h2>Мои курсы</h2>
+
+        <ul class="link-list">
+          <li>
+            <a href="https://vladilen.ru/junior"
+              >Получение професси Frontend разработчика</a
+            >
+          </li>
+          <li>
+            <a href="https://vladilen.ru/courses">Все курсы</a>
+          </li>
+        </ul>
+      </div>
+
+      <form action="" class="form">
+
+        <div class="contacts-color">
+          <h2>Связаться со мной</h2>
+        </div>
+
+        <div class="form-row">
+
+          <div class="form-group">
+            <label for="name">Ваше имя:</label>
+            <input type="text" id="name" placeholder="Введите имя" />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Ваш еmail:</label>
+            <input type="email" id="email" placeholder="Введите email" />
+          </div>
+
+        </div>
+
+        <div class="form-group">
+          <label for="message">Ваше сообщение:</label>
+          <textarea
+            id="message"
+            cols="30"
+            rows="5"
+            placeholder="Введите сообщение"
+          ></textarea>
+        </div>
+
+        <input type="submit" value="Отправить!" class="btn" />
+      </form>
+
+
     </div>
-
-    <div>
-        <label for="email">Ваш еmail:</label>
-        <input type="email" id="email" placeholder="Введите email">
-    </div>
-
-    <div>
-        <label for="message">Ваше сообщение:</label>
-        <br>
-        <textarea  id="message" cols="30" rows="5" placeholder="Введите сообщение"></textarea>
-    </div>
-
-    <input type="submit" value="Отправить!">
-
-    
-</form>
-
-</body>
-
+  </body>
 </html>
