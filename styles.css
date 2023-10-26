@@ -45,6 +45,10 @@ body {font-family: Roboto, sans-serif;
     .info {
         display: block;
         text-align: center;
+        
+    }
+    .info-text {
+        margin-left: 0;
     }
 }
 
@@ -57,7 +61,7 @@ body {font-family: Roboto, sans-serif;
 }
 
 .info-text h4 {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .card {
